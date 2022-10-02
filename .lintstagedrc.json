@@ -1,0 +1,7 @@
+{
+  "src/**/*.{ts,tsx}": [
+    "yarn eslint --fix",
+    "yarn prettier --check",
+    "yarn test:staged"
+  ]
+}
